@@ -5,11 +5,11 @@ def display_board
   third_row = ["   ", "|", "   ", "|", "   "]
   dash_line = "-----------"
 
-  print first_row
+  puts first_row
   puts dash_line
-  print second_row
+  puts second_row
   puts dash_line
-  print third_row
+  puts third_row
 end
 
 display_board
