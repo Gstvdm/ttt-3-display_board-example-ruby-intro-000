@@ -2,7 +2,7 @@
 def display_board
   first_row = ["   ", "|", "   ", "|", "   "]
   second_row = ["   ", "|", "   ", "|", "   "]
-  third_row = ["   ", "|", "   ", "|", "   "]  
+  third_row = ["   ", "|", "   ", "|", "   "]
   dash_line = "-----------"
 
   puts first_row
@@ -11,3 +11,5 @@ def display_board
   puts dash_line
   puts third_row
 end
+
+display_board
